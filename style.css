@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 320px) {
+    /*Small mobile devices*/
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+    /*Medium mobile devices*/
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    /*Large mobile devices*/
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    /*Tablet devices*/
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /*Laptop devices*/
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /*Large Laptops devices*/
+}
