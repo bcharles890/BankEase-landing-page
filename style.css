@@ -280,6 +280,7 @@ body{
         display: none;
     }
     /*Navbar Section Ends*/
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -330,6 +331,17 @@ body{
         width: 30px;
         height: 21px;
     }
+
+    .register{
+        background-color: hsl(136, 65%, 51%);
+        border: solid hsl(136, 65%, 51%) 1px;
+        border-radius: 25px;
+        color: white;
+        height: 35px;
+        width: 150%;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+    }
     /*Navbar Section Ends*/
 }
 
@@ -338,11 +350,20 @@ body{
 
     /*Navbar Section Begins*/
 
+    #nav-section{
+        height: 8vh; /*keeps navbar positioned above hero page*/
+    }
+
     .navbar{
         display: flex;
         justify-content: space-around;
         align-items: center;
         color: black;
+        position: fixed;
+        background-color: white;
+        border: solid whitesmoke 1px;
+        width: 100%;
+        height: 8vh;
     }
 
     .logo{
@@ -386,11 +407,71 @@ body{
 
     .register{
         background-color: hsl(136, 65%, 51%);
-        border: solid hsl(136, 65%, 51%) 1px;
-        border-radius: 5px;
+        border: none;
+        border-radius: 25px;
         color: white;
-        height: 20px;
+        height: 35px;
+        width: 150%;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
     }
     
     /*Navbar Section Ends*/
+
+    /*Hero Section Begins*/
+
+    #hero{
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(0, 0%, 98%);
+        
+
+    }
+
+    .hero-text-container{
+        border: solid;
+        padding-left: 5%;
+       
+    }
+
+    .hero-img-container{
+    }
+
+    .hero-header{
+        font-size: 58px;
+        border: solid;
+        width: 75%;
+        font-weight: 400;
+        margin-top: 25%;
+        height: 13%;
+
+    }
+
+    .hero-text{
+        width: 75%;
+        text-align: left;
+        font-size: 18px;
+        height: 10%;
+        line-height: 1.5em;
+        color: hsl(233, 8%, 62%);
+
+    }
+
+    .hero-btn{
+        background-color: hsl(136, 65%, 51%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        height: 40px;
+        width: 27%;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+ 
+    }
+
+    .hero-img{
+
+    }
+    /*Hero Section Ends*/
+
 }
