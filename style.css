@@ -427,7 +427,7 @@ body{
         display: flex;
         flex-direction: row;
         background-color: hsl(0, 0%, 98%);
-        height: 95vh;
+        height: 80vh;
         background-image: url(./easybank-landing-page-master/images/bg-intro-desktop.svg);
         background-position-x: 360%;
         background-position-y: 110%;
@@ -438,7 +438,6 @@ body{
     }
 
     .hero-text-container{
-        border: solid;
         padding-left: 5%;
         width: 70%;
        
@@ -449,16 +448,15 @@ body{
 
     .hero-header{
         font-size: 3.5vw;
-        width: 78%;
+        width: 65%;
         font-weight: 400;
         margin-top: 25%;
-        border: solid;
         height: fit-content;
 
     }
 
     .hero-text{
-        width: 85%;
+        width: 67%;
         text-align: left;
         font-size: 1.3vw;
         height: 12%;
@@ -476,7 +474,7 @@ body{
         width: 12vw;
         font-weight: 600;
         background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
- 
+        margin-top: 2%;
     }
 
     .hero-img{
@@ -484,7 +482,7 @@ body{
         z-index: 0;
         margin-top: -15%;
         margin-left: 15%;
-        width: 55vw;
+        width: 45vw;
 
     }
     /*Hero Section Ends*/
