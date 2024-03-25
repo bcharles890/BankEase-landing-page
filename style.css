@@ -360,11 +360,12 @@ body{
         background-color: hsl(0, 0%, 98%);
         height: 80vh;
         background-image: url(./easybank-landing-page-master/images/bg-intro-desktop.svg);
-        background-position-x: 360%;
-        background-position-y: 110%;
         background-repeat: no-repeat;
-        background-size: 86%;
+        background-size: 70vw;
         margin-top: 0;
+        
+        background-position: 155% -35%;
+        
         
     }
 
@@ -402,7 +403,7 @@ body{
         border-radius: 25px;
         color: white;
         height: 40px;
-        width: 12vw;
+        width: 15vw;
         font-weight: 600;
         background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
         margin-top: 2%;
@@ -502,11 +503,11 @@ body{
         background-color: hsl(0, 0%, 98%);
         height: 80vh;
         background-image: url(./easybank-landing-page-master/images/bg-intro-desktop.svg);
-        background-position-x: 360%;
-        background-position-y: 110%;
         background-repeat: no-repeat;
-        background-size: 86%;
+        background-size: 70vw;
         margin-top: 0;
+        background-position: 165% 75%;
+
         
     }
 
