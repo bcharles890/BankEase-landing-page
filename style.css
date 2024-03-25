@@ -292,6 +292,12 @@ body{
         justify-content: space-around;
         align-items: center;
         color: black;
+        position: fixed;
+        background-color: white;
+        border: solid whitesmoke 1px;
+        width: 100%;
+        height: 8vh;
+        z-index: 1;
     }
 
     .logo{
@@ -307,6 +313,7 @@ body{
 
     .nav-links li{
         list-style: none;
+        font-size: 1.5vw;
     }
 
     .nav-links li a {
@@ -339,11 +346,77 @@ body{
         border-radius: 25px;
         color: white;
         height: 35px;
-        width: 150%;
+        width: 15vw;
         font-weight: 600;
         background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
     }
     /*Navbar Section Ends*/
+
+    /*Hero Section Begins*/
+
+    #hero{
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(0, 0%, 98%);
+        height: 80vh;
+        background-image: url(./easybank-landing-page-master/images/bg-intro-desktop.svg);
+        background-position-x: 360%;
+        background-position-y: 110%;
+        background-repeat: no-repeat;
+        background-size: 86%;
+        margin-top: 0;
+        
+    }
+
+    .hero-text-container{
+        padding-left: 5%;
+        width: 70%;
+       
+    }
+
+    .hero-img-container{
+    }
+
+    .hero-header{
+        font-size: 3.5vw;
+        width: 65%;
+        font-weight: 400;
+        margin-top: 25%;
+        height: fit-content;
+
+    }
+
+    .hero-text{
+        width: 67%;
+        text-align: left;
+        font-size: 1.3vw;
+        height: 12%;
+        line-height: 1.5em;
+        color: hsl(233, 8%, 62%);
+
+    }
+
+    .hero-btn{
+        background-color: hsl(136, 65%, 51%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        height: 40px;
+        width: 12vw;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        margin-top: 2%;
+    }
+
+    .hero-img{
+        position: sticky;
+        z-index: 0;
+        margin-top: -3%;
+        margin-left: 5%;
+        width: 45vw;
+
+    }
+    /*Hero Section Ends*/
 }
 
 @media only screen and (min-width: 1025px) {
