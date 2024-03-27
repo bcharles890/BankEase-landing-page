@@ -225,10 +225,17 @@ body{
         color: black;
         flex-direction: column;
         align-items: flex-start;
+        position: fixed;
+        background-color: white;
+        border: solid whitesmoke 1px;
+        width: 100%;
+        padding: 2vh;
+        z-index: 1;
     }
 
     .logo{
         margin: .5rem;
+        margin-top: 1rem;
     }
 
     .nav-links{
@@ -247,23 +254,31 @@ body{
     .nav-links li{
         list-style: none;
         text-align: center;
+        
     }
 
     .nav-links li a {
         text-decoration: none;
         color: black;
-        padding: .5rem 1rem;
+        padding: 1rem 1rem;
         display: block;
     }
 
     .nav-links.active{
         display: flex;
+        background-color: white;
+        
     }
 
     .nav-links li:hover{
 
         border-bottom: solid hsl(192, 70%, 51%);
+        
 
+    }
+
+    .burger-icon{
+        margin-top: 1rem;
     }
 
     .toggle-button{
@@ -281,6 +296,37 @@ body{
         display: none;
     }
     /*Navbar Section Ends*/
+    /*Hero Section Starts*/
+
+    #hero{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: hsl(0, 0%, 98%);
+
+    }
+
+    .hero-text-container{
+
+    }
+
+    .hero-header{
+
+    }
+
+    .hero-text{
+
+    }
+
+    .hero-img{
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /*Hero Section Ends*/
+
 
 }
 
