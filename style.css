@@ -586,6 +586,83 @@ body{
 
     /*Hero Section Ends*/
 
+    /*Easybank info Section Starts*/
+
+    #Easybank-info{
+        margin: 0;
+        height: 110vh;
+        
+
+    }
+
+    .Easybank-info-container{
+        border: solid hsl(220, 16%, 96%) ;
+        height: 320vh;
+        background-color: hsl(220, 16%, 96%);
+    
+        
+    }
+
+    .Easybank-info-header{
+        font-weight: 400;
+        font-size: 6vw;
+        margin-top: 8%;
+        margin-left: 4%;
+        text-align: center;
+
+    }
+
+    .Easybank-info-header-text{
+        font-weight: 400;
+        font-size: 3.5vw;
+        line-height: 1.5em;
+        color: hsl(233, 8%, 62%);
+        height: 12%;
+        width: 80%;
+        margin-left: 12%;
+        text-align: center;
+    }
+
+    .Easybank-info-component-container{
+        display: flex;
+        margin: 5px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .Easybank-info-component{
+        height: 60vh;
+        width: 80%;
+    }
+
+    .Easybank-info-component-icon{
+        height: 25%;
+        padding-left: 40%;
+        text-align: center;
+    }
+
+    .Easybank-info-component-header{
+        font-weight: 400;
+        font-size: 5vw;
+        padding-left: 5px;
+        text-align: center;
+    }
+
+    .Easybank-info-component-text{
+        font-weight: 400;
+        color: hsl(233, 8%, 62%);
+        font-size: 3.5vw;
+        line-height: 1.5em;
+        padding: 5px;
+        text-align: center;
+
+    }
+
+
+    /*Easybank info Section Ends*/
+
 
 }
 
@@ -723,6 +800,75 @@ body{
 
     }
     /*Hero Section Ends*/
+
+    /*Easybank info Section Starts*/
+
+    #Easybank-info{
+        margin: 0;
+        height: 110vh;
+        
+
+    }
+
+    .Easybank-info-container{
+        border: solid hsl(220, 16%, 96%) ;
+        height: 80vh;
+        background-color: hsl(220, 16%, 96%);
+        
+    }
+
+    .Easybank-info-header{
+        font-weight: 400;
+        font-size: 2.8vw;
+        margin-top: 8%;
+        margin-left: 4%;
+
+    }
+
+    .Easybank-info-header-text{
+        font-weight: 400;
+        font-size: 1.3vw;
+        line-height: 1.5em;
+        color: hsl(233, 8%, 62%);
+        height: 12%;
+        width: 50%;
+        margin-left: 4%;
+    }
+
+    .Easybank-info-component-container{
+        display: flex;
+        margin: 5px;
+        justify-content: space-evenly;
+        
+    }
+
+    .Easybank-info-component{
+        height: 50vh;
+        width: 20%;
+    }
+
+    .Easybank-info-component-icon{
+        height: 25%;
+        padding-left: 5px;
+    }
+
+    .Easybank-info-component-header{
+        font-weight: 500;
+        font-size: 2vw;
+        padding-left: 5px;
+    }
+
+    .Easybank-info-component-text{
+        font-weight: 400;
+        color: hsl(233, 8%, 62%);
+        font-size: 1.3vw;
+        line-height: 1.5em;
+        padding: 5px;
+
+    }
+
+
+    /*Easybank info Section Ends*/
 }
 
 @media only screen and (min-width: 1025px) {
@@ -875,8 +1021,8 @@ body{
     }
 
     .Easybank-info-container{
-        border: solid black;
-        height: 110vh;
+        border: solid hsl(220, 16%, 96%) ;
+        height: 95vh;
         background-color: hsl(220, 16%, 96%);
         
     }
