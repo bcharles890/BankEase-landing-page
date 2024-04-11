@@ -1523,6 +1523,10 @@ body{
 @media only screen and (min-width: 1025px) {
     /*Large Laptops devices*/
 
+    body{
+        height: 295vh;
+    }
+
     /*Navbar Section Begins*/
 
     #nav-section{
@@ -1801,6 +1805,105 @@ body{
 
     }
     /*Latest Articles Section Ends*/
+
+    /*Footer Section Starts*/
+
+    #footer-section{
+        background-color: hsl(233, 26%, 24%);
+        font-weight: 300;
+        
+    }
+    .footer{
+        height: 30vh;
+        color: white;
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vh;
+    }
+
+    .footer-logo-container{
+
+    }
+
+    .footer-logo{
+        height: vh;
+        margin-bottom: 5vh;
+        margin-top: 3.5vh;
+
+    }
+
+    .footer-logo>svg{
+        color: white;
+    }
+    .footer-social-container{
+        display: flex;
+        padding: 9px;
+        justify-content: space-evenly;
+        margin-right: ;
+    }
+    .facebook{
+        padding: 3px;
+    }
+    .youtube{
+        padding: 3px;
+
+    }
+    .twitter{
+        padding: 3px;
+
+    }
+    .pinterest{
+        padding: 3px;
+
+    }
+    .instagram{
+        padding: 3px;
+
+    }
+
+    .footer-links{
+        display: flex;
+        width: 30%;
+    }
+
+    .foot-links-1{
+        margin-right: 15%;
+        margin-left: -10%;
+    }
+
+    .footer-links li{
+        list-style-type: none;
+        margin-top: 1.5vh;
+        width: 100%;
+    }
+    .footer-links a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .footer-btn-container
+    .footer-btn{
+        margin-bottom: 2vh;
+        margin-top: 1vw;
+        margin-left: 2vw;
+        background-color: hsl(136, 65%, 51%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        height: 35px;
+        width: 12vw;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+      
+    }
+    .footer-copyright{
+        color: hsl(233, 8%, 62%);
+    }
+    /*Footer Section Ends*/
 
 
 
