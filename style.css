@@ -621,6 +621,9 @@ body{
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
     /*Large mobile devices*/
+    body{
+        height: 725vh;
+    }
     /*Navbar Section Begins*/
     .navbar{
         display: flex;
@@ -922,11 +925,127 @@ body{
     }
     /*Latest Articles Section Ends*/
 
+    /*Footer Section Starts*/
+
+    #footer-section{
+        background-color: hsl(233, 26%, 24%);
+        font-weight: 300;
+        
+    }
+    .footer{
+        height: 80vh;
+        color: white;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vh;
+    }
+
+    .footer-logo-container{
+
+    }
+
+    .footer-logo{
+        height: vh;
+        margin-bottom: 3vh;
+        margin-top: 4.5vh;
+        margin-left: 3.4vw;
+        border: solid;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+        
+
+    }
+
+    .footer-logo>svg{
+        color: white;
+    }
+    .footer-social-container{
+        display: flex;
+        padding: 9px;
+        justify-content: center;
+        margin-left: 3.5vw;
+        width: 100%;
+        
+    }
+    .facebook{
+        padding: 3px;
+    }
+    .youtube{
+        padding: 3px;
+
+    }
+    .twitter{
+        padding: 3px;
+
+    }
+    .pinterest{
+        padding: 3px;
+
+    }
+    .instagram{
+        padding: 3px;
+
+    }
+
+    .footer-links{
+        width: 100%;
+        text-align: center;
+    }
+
+    .foot-links-1{
+    }
+
+    .footer-links li{
+        list-style-type: none;
+        margin-top: 1.5vh;
+        width: 100%;
+    }
+    .footer-links a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .footer-btn-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer-btn{
+        margin-bottom: 2vh;
+        margin-top: 1vw;
+        margin-left: 6.5vw;
+        background-color: hsl(136, 65%, 51%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        height: 40px;
+        width: 40vw;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+      
+    }
+    .footer-copyright{
+        color: hsl(233, 8%, 62%);
+        text-align: center;
+    }
+    /*Footer Section Ends*/
+
     
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
     /*Tablet devices*/
+    body{
+        height: 923vh;
+    }
     /*Navbar Section Begins*/
     .navbar{
         display: flex;
@@ -1154,7 +1273,7 @@ body{
 
     #latest-article-section{
         background-color: hsl(0, 0%, 98%);
-        height: 360vh;
+        height: 380vh;
         width: 100%;
         margin-top: 200vh;
     }
@@ -1235,7 +1354,118 @@ body{
     }
     /*Latest Articles Section Ends*/
 
-    
+     /*Footer Section Starts*/
+
+     #footer-section{
+        background-color: hsl(233, 26%, 24%);
+        font-weight: 300;
+        
+    }
+    .footer{
+        height: 80vh;
+        color: white;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vh;
+    }
+
+    .footer-logo-container{
+
+    }
+
+    .footer-logo{
+        height: vh;
+        margin-bottom: 3vh;
+        margin-top: 4.5vh;
+        margin-left: 3.4vw;
+        border: solid;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+        
+
+    }
+
+    .footer-logo>svg{
+        color: white;
+    }
+    .footer-social-container{
+        display: flex;
+        padding: 9px;
+        justify-content: center;
+        margin-left: 3.5vw;
+        width: 100%;
+        
+    }
+    .facebook{
+        padding: 3px;
+    }
+    .youtube{
+        padding: 3px;
+
+    }
+    .twitter{
+        padding: 3px;
+
+    }
+    .pinterest{
+        padding: 3px;
+
+    }
+    .instagram{
+        padding: 3px;
+
+    }
+
+    .footer-links{
+        width: 100%;
+        text-align: center;
+    }
+
+    .foot-links-1{
+    }
+
+    .footer-links li{
+        list-style-type: none;
+        margin-top: 1.5vh;
+        width: 100%;
+    }
+    .footer-links a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .footer-btn-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer-btn{
+        margin-bottom: 2vh;
+        margin-top: 1vw;
+        margin-left: 3.5vw;
+        background-color: hsl(136, 65%, 51%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        height: 40px;
+        width: 24vw;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+      
+    }
+    .footer-copyright{
+        color: hsl(233, 8%, 62%);
+        text-align: center;
+    }
+    /*Footer Section Ends*/
 
     
 
@@ -1244,6 +1474,10 @@ body{
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     /*Laptop devices*/
+
+    body{
+        height: 270vh;
+    }
     /*Navbar Section Begins*/
     .navbar{
         display: flex;
@@ -1518,6 +1752,112 @@ body{
 
     }
     /*Latest Articles Section Ends*/
+
+     /*Footer Section Starts*/
+
+     #footer-section{
+        background-color: hsl(233, 26%, 24%);
+        font-weight: 300;
+        
+    }
+    .footer{
+        height: 30vh;
+        color: white;
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vh;
+    }
+
+    .footer-logo-container{
+
+    }
+
+    .footer-logo{
+        height: vh;
+        margin-bottom: 4vh;
+        margin-top: 3.5vh;
+
+
+        
+        border: solid;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+
+    }
+
+    .footer-logo>svg{
+        color: white;
+    }
+    .footer-social-container{
+        display: flex;
+        padding: 9px;
+        justify-content: space-evenly;
+        margin-right: ;
+    }
+    .facebook{
+        padding: 3px;
+    }
+    .youtube{
+        padding: 3px;
+
+    }
+    .twitter{
+        padding: 3px;
+
+    }
+    .pinterest{
+        padding: 3px;
+
+    }
+    .instagram{
+        padding: 3px;
+
+    }
+
+    .footer-links{
+        display: flex;
+        width: 30%;
+    }
+
+    .foot-links-1{
+        margin-right: 15%;
+        margin-left: -10%;
+    }
+
+    .footer-links li{
+        list-style-type: none;
+        margin-top: 1.5vh;
+        width: 100%;
+    }
+    .footer-links a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .footer-btn-container
+    .footer-btn{
+        margin-bottom: 2vh;
+        margin-top: 1vw;
+        margin-left: 7vw;
+        background-color: hsl(136, 65%, 51%);
+        border: none;
+        border-radius: 25px;
+        color: white;
+        height: 35px;
+        width: 16vw;
+        font-weight: 600;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+      
+    }
+    .footer-copyright{
+        color: hsl(233, 8%, 62%);
+    }
+    /*Footer Section Ends*/
 }
 
 @media only screen and (min-width: 1025px) {
@@ -1834,6 +2174,11 @@ body{
         margin-bottom: 5vh;
         margin-top: 3.5vh;
 
+        border: solid;
+        background-color: white;
+        border-radius: 10px;
+        padding: 5px;
+
     }
 
     .footer-logo>svg{
@@ -1889,13 +2234,13 @@ body{
     .footer-btn{
         margin-bottom: 2vh;
         margin-top: 1vw;
-        margin-left: 2vw;
+        margin-left: 6vw;
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
         color: white;
         height: 35px;
-        width: 12vw;
+        width: 9vw;
         font-weight: 600;
         background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
       
