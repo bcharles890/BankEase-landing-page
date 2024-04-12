@@ -322,6 +322,7 @@ body{
     #footer-section{
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
+        padding-right: 5vw;
         
     }
     .footer{
@@ -744,6 +745,8 @@ body{
     #footer-section{
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
+        padding-right: 5vw;
+
         
     }
     .footer{
@@ -1166,6 +1169,8 @@ body{
     #footer-section{
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
+        padding-right: 2.5vw;
+
         
     }
     .footer{
@@ -1596,6 +1601,8 @@ body{
      #footer-section{
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
+        padding-right: 1.5vw;
+
         
     }
     .footer{
