@@ -1286,7 +1286,7 @@ body{
 @media only screen and (min-width: 426px) and (max-width: 768px) {
     /*Tablet devices*/
     body{
-        height: 923vh;
+        height: 870vh;
     }
     /*Navbar Section Begins*/
     .navbar{
