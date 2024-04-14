@@ -29,6 +29,11 @@ Users should be able to:
 
 ![](./design/desktop-preview.jpg)
 
+![active-states](https://github.com/bcharles890/BankEase-landing-page/assets/109402936/f7a6543a-3acf-46b5-abd8-dc519a3066fa)
+![mobile-design](https://github.com/bcharles890/BankEase-landing-page/assets/109402936/1f6e3825-559a-4043-a6fc-c32ff2633e62)
+
+
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
