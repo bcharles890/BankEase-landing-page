@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
     box-sizing: border-box;
-    font-family: 'Public Sans';
+    font-family: "Public Sans";
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     height: 1000vh;
 }
 
 @media only screen and (max-width: 320px) {
+
     /*Small mobile devices*/
-    body{
+    body {
         height: 670vh;
     }
+
     /*Navbar Section Begins*/
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -32,16 +34,16 @@ body{
         z-index: 1;
     }
 
-    .logo{
-        margin: .5rem;
+    .logo {
+        margin: 0.5rem;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
         width: 100%;
     }
 
-    .nav-links>ul{
+    .nav-links>ul {
         margin: 0;
         padding: 0;
         display: flex;
@@ -49,7 +51,7 @@ body{
         width: 100%;
     }
 
-    .nav-links li{
+    .nav-links li {
         list-style: none;
         text-align: center;
     }
@@ -57,21 +59,19 @@ body{
     .nav-links li a {
         text-decoration: none;
         color: black;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
         display: block;
     }
 
-    .nav-links.active{
+    .nav-links.active {
         display: flex;
     }
 
-    .nav-links li:hover{
-
+    .nav-links li:hover {
         border-bottom: solid hsl(192, 70%, 51%);
-
     }
 
-    .toggle-button{
+    .toggle-button {
         position: absolute;
         top: 1.5rem;
         right: 1rem;
@@ -82,14 +82,15 @@ body{
         height: 21px;
     }
 
-    .register{
+    .register {
         display: none;
     }
+
     /*Navbar Section Ends*/
 
-     /*Hero Section Starts*/
+    /*Hero Section Starts*/
 
-     #hero{
+    #hero {
         display: flex;
         flex-direction: column-reverse;
         background-color: hsl(0, 0%, 98%);
@@ -99,17 +100,16 @@ body{
         background-repeat: no-repeat;
         background-size: 145vw;
         margin-top: 0;
-        
-        background-position: 40% -135%;
 
+        background-position: 40% -135%;
     }
 
-    .hero-text-container{
+    .hero-text-container {
         padding-left: 14%;
         width: 100%;
     }
 
-    .hero-header{
+    .hero-header {
         font-size: 10vw;
         width: 90%;
         font-weight: 300;
@@ -118,7 +118,7 @@ body{
         text-align: center;
     }
 
-    .hero-text{
+    .hero-text {
         width: 90%;
         text-align: left;
         font-size: 5.5vw;
@@ -128,7 +128,7 @@ body{
         text-align: center;
     }
 
-    .hero-img{
+    .hero-img {
         width: 70vw;
         display: flex;
         justify-content: center;
@@ -136,7 +136,7 @@ body{
         z-index: 0;
     }
 
-    .hero-btn{
+    .hero-btn {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -144,7 +144,9 @@ body{
         height: 45px;
         width: 45vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
         margin-top: 1.3%;
         font-size: 4.5vw;
         text-align: center;
@@ -152,36 +154,30 @@ body{
         margin-bottom: 15%;
     }
 
-
     /*Hero Section Ends*/
 
     /*Easybank info Section Starts*/
 
-    #Easybank-info{
+    #Easybank-info {
         margin: 0;
         height: 110vh;
-        
-
     }
 
-    .Easybank-info-container{
-        border: solid hsl(220, 16%, 96%) ;
+    .Easybank-info-container {
+        border: solid hsl(220, 16%, 96%);
         height: 250vh;
         background-color: hsl(220, 16%, 96%);
-    
-        
     }
 
-    .Easybank-info-header{
+    .Easybank-info-header {
         font-weight: 300;
         font-size: 10vw;
         margin-top: 18%;
         margin-left: 4%;
         text-align: center;
-
     }
 
-    .Easybank-info-header-text{
+    .Easybank-info-header-text {
         font-weight: 400;
         font-size: 4.5vw;
         line-height: 1.8em;
@@ -192,145 +188,134 @@ body{
         text-align: center;
     }
 
-    .Easybank-info-component-container{
+    .Easybank-info-component-container {
         display: flex;
         margin: 5px;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        
     }
 
-    .Easybank-info-component{
+    .Easybank-info-component {
         height: 50vh;
         width: 95%;
     }
 
-    .Easybank-info-component-icon{
+    .Easybank-info-component-icon {
         height: 25%;
         padding-left: 38%;
         text-align: center;
     }
 
-    .Easybank-info-component-header{
+    .Easybank-info-component-header {
         font-weight: 300;
         font-size: 8vw;
         padding-left: 5px;
         text-align: center;
     }
 
-    .Easybank-info-component-text{
+    .Easybank-info-component-text {
         font-weight: 400;
         color: hsl(233, 8%, 62%);
         font-size: 4.5vw;
         line-height: 1.8em;
         padding: 5px;
         text-align: center;
-
     }
-
 
     /*Easybank info Section Ends*/
 
     /*Latest Articles Section Starts*/
 
-    #latest-article-section{
+    #latest-article-section {
         background-color: hsl(0, 0%, 98%);
         height: 265vh;
         width: 100%;
         margin-top: 130vh;
     }
 
-    .latest-article-container{
+    .latest-article-container {
         border: solid hsl(0, 0%, 98%);
         width: 100%;
         height: 265vh;
     }
 
-    .latest-article-header{
+    .latest-article-header {
         font-weight: 300;
         font-size: 7vw;
         margin-top: 4%;
         width: 100%;
         text-align: center;
-        
-        
     }
 
-    .article-component-container{
+    .article-component-container {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
     }
 
-    .article-component{
+    .article-component {
         height: 60vh;
         width: 80%;
         margin-bottom: 5%;
     }
 
-    .article-img{
+    .article-img {
         width: 100%;
         height: 35vh;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
 
-    .article-text-container{
+    .article-text-container {
         padding-left: 6%;
         margin-top: -4px;
         background-color: white;
         height: 40vw;
-        border: solid white; 
+        border: solid white;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-
-        
     }
 
-    .article-author{
+    .article-author {
         font-size: 2.5vw;
         color: hsl(233, 8%, 62%);
         font-weight: 300;
         margin-top: 4%;
         line-height: 1.5em;
-        
-
     }
 
-    .article-title{
+    .article-title {
         font-weight: 400;
         margin-top: -2px;
         font-size: 4.2vw;
         width: 95%;
-
     }
 
-    .article-content{
+    .article-content {
         font-size: 3vw;
         width: 90%;
         color: hsl(233, 8%, 62%);
         line-height: 1.5em;
-
-
     }
+
     /*Latest Articles Section Ends*/
 
     /*Footer Section Starts*/
 
-    #footer-section{
+    #footer-section {
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
         padding-right: 5vw;
-        
     }
-    .footer{
+
+    .footer {
         height: 80vh;
         color: white;
     }
 
-    .footer-container{
+    .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -338,11 +323,9 @@ body{
         padding-top: 4vh;
     }
 
-    .footer-logo-container{
+    .footer-logo-container {}
 
-    }
-
-    .footer-logo{
+    .footer-logo {
         height: vh;
         margin-bottom: 3vh;
         margin-top: 5.5vh;
@@ -351,60 +334,59 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 5px;
-        
-
     }
 
-    .footer-logo>svg{
+    .footer-logo>svg {
         color: white;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         display: flex;
         padding: 9px;
         justify-content: center;
         margin-left: 5.5vw;
         width: 100%;
-        
-    }
-    .facebook{
-        padding: 3px;
-    }
-    .youtube{
-        padding: 3px;
-
-    }
-    .twitter{
-        padding: 3px;
-
-    }
-    .pinterest{
-        padding: 3px;
-
-    }
-    .instagram{
-        padding: 3px;
-
     }
 
-    .footer-links{
+    .facebook {
+        padding: 3px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .twitter {
+        padding: 3px;
+    }
+
+    .pinterest {
+        padding: 3px;
+    }
+
+    .instagram {
+        padding: 3px;
+    }
+
+    .footer-links {
         width: 100%;
         text-align: center;
     }
 
-    .foot-links-1{
-    }
+    .foot-links-1 {}
 
-    .footer-links li{
+    .footer-links li {
         list-style-type: none;
         margin-top: 1.5vh;
         width: 100%;
     }
-    .footer-links a{
+
+    .footer-links a {
         color: white;
         text-decoration: none;
-
     }
-    .footer-btn-container{
+
+    .footer-btn-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -412,7 +394,8 @@ body{
         width: 100%;
         text-align: center;
     }
-    .footer-btn{
+
+    .footer-btn {
         margin-bottom: 2vh;
         margin-top: 1vw;
         margin-left: 9.5vw;
@@ -423,24 +406,29 @@ body{
         height: 40px;
         width: 45vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
-      
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    .footer-copyright{
+
+    .footer-copyright {
         color: hsl(233, 8%, 62%);
         text-align: center;
         margin-left: 4vw;
     }
+
     /*Footer Section Ends*/
 }
 
 @media only screen and (min-width: 321px) and (max-width: 375px) {
+
     /*Medium mobile devices*/
-    body{
+    body {
         height: 685vh;
     }
+
     /*Navbar Section Begins*/
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -455,16 +443,16 @@ body{
         z-index: 1;
     }
 
-    .logo{
-        margin: .5rem;
+    .logo {
+        margin: 0.5rem;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
         width: 100%;
     }
 
-    .nav-links>ul{
+    .nav-links>ul {
         margin: 0;
         padding: 0;
         display: flex;
@@ -472,7 +460,7 @@ body{
         width: 100%;
     }
 
-    .nav-links li{
+    .nav-links li {
         list-style: none;
         text-align: center;
     }
@@ -480,21 +468,19 @@ body{
     .nav-links li a {
         text-decoration: none;
         color: black;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
         display: block;
     }
 
-    .nav-links.active{
+    .nav-links.active {
         display: flex;
     }
 
-    .nav-links li:hover{
-
+    .nav-links li:hover {
         border-bottom: solid hsl(192, 70%, 51%);
-
     }
 
-    .toggle-button{
+    .toggle-button {
         position: absolute;
         top: 1.5rem;
         right: 1rem;
@@ -505,14 +491,15 @@ body{
         height: 21px;
     }
 
-    .register{
+    .register {
         display: none;
     }
+
     /*Navbar Section Ends*/
 
     /*Hero Section Starts*/
 
-    #hero{
+    #hero {
         display: flex;
         flex-direction: column-reverse;
         background-color: hsl(0, 0%, 98%);
@@ -522,17 +509,16 @@ body{
         background-repeat: no-repeat;
         background-size: 145vw;
         margin-top: 0;
-        
-        background-position: 40% -135%;
 
+        background-position: 40% -135%;
     }
 
-    .hero-text-container{
+    .hero-text-container {
         padding-left: 14%;
         width: 100%;
     }
 
-    .hero-header{
+    .hero-header {
         font-size: 9.5vw;
         width: 90%;
         font-weight: 300;
@@ -541,7 +527,7 @@ body{
         text-align: center;
     }
 
-    .hero-text{
+    .hero-text {
         width: 90%;
         text-align: left;
         font-size: 4.7vw;
@@ -551,7 +537,7 @@ body{
         text-align: center;
     }
 
-    .hero-img{
+    .hero-img {
         width: 70vw;
         display: flex;
         justify-content: center;
@@ -559,7 +545,7 @@ body{
         z-index: 0;
     }
 
-    .hero-btn{
+    .hero-btn {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -567,7 +553,9 @@ body{
         height: 45px;
         width: 45vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
         margin-top: 1.3%;
         font-size: 4.5vw;
         text-align: center;
@@ -575,36 +563,30 @@ body{
         margin-bottom: 15%;
     }
 
-
     /*Hero Section Ends*/
 
     /*Easybank info Section Starts*/
 
-    #Easybank-info{
+    #Easybank-info {
         margin: 0;
         height: 110vh;
-        
-
     }
 
-    .Easybank-info-container{
-        border: solid hsl(220, 16%, 96%) ;
+    .Easybank-info-container {
+        border: solid hsl(220, 16%, 96%);
         height: 250vh;
         background-color: hsl(220, 16%, 96%);
-    
-        
     }
 
-    .Easybank-info-header{
+    .Easybank-info-header {
         font-weight: 300;
         font-size: 9vw;
         margin-top: 18%;
         margin-left: 4%;
         text-align: center;
-
     }
 
-    .Easybank-info-header-text{
+    .Easybank-info-header-text {
         font-weight: 400;
         font-size: 4vw;
         line-height: 1.8em;
@@ -615,146 +597,134 @@ body{
         text-align: center;
     }
 
-    .Easybank-info-component-container{
+    .Easybank-info-component-container {
         display: flex;
         margin: 5px;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        
     }
 
-    .Easybank-info-component{
+    .Easybank-info-component {
         height: 50vh;
         width: 95%;
     }
 
-    .Easybank-info-component-icon{
+    .Easybank-info-component-icon {
         height: 25%;
         padding-left: 38%;
         text-align: center;
     }
 
-    .Easybank-info-component-header{
+    .Easybank-info-component-header {
         font-weight: 300;
         font-size: 6vw;
         padding-left: 5px;
         text-align: center;
     }
 
-    .Easybank-info-component-text{
+    .Easybank-info-component-text {
         font-weight: 400;
         color: hsl(233, 8%, 62%);
         font-size: 4vw;
         line-height: 1.8em;
         padding: 5px;
         text-align: center;
-
     }
-
 
     /*Easybank info Section Ends*/
 
     /*Latest Articles Section Starts*/
 
-    #latest-article-section{
+    #latest-article-section {
         background-color: hsl(0, 0%, 98%);
         height: 270vh;
         width: 100%;
         margin-top: 130vh;
     }
 
-    .latest-article-container{
+    .latest-article-container {
         border: solid hsl(0, 0%, 98%);
         width: 100%;
         height: 270vh;
     }
 
-    .latest-article-header{
+    .latest-article-header {
         font-weight: 300;
         font-size: 7vw;
         margin-top: 4%;
         width: 100%;
         text-align: center;
-        
-        
     }
 
-    .article-component-container{
+    .article-component-container {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
     }
 
-    .article-component{
+    .article-component {
         height: 60vh;
         width: 80%;
         margin-bottom: 10%;
     }
 
-    .article-img{
+    .article-img {
         width: 100%;
         height: 35vh;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
 
-    .article-text-container{
+    .article-text-container {
         padding-left: 6%;
         margin-top: -4px;
         background-color: white;
         height: 40vw;
-        border: solid white; 
+        border: solid white;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-
-        
     }
 
-    .article-author{
+    .article-author {
         font-size: 2.5vw;
         color: hsl(233, 8%, 62%);
         font-weight: 300;
         margin-top: 4%;
         line-height: 1.5em;
-        
-
     }
 
-    .article-title{
+    .article-title {
         font-weight: 400;
         margin-top: -2px;
         font-size: 4.2vw;
         width: 95%;
-
     }
 
-    .article-content{
+    .article-content {
         font-size: 3vw;
         width: 90%;
         color: hsl(233, 8%, 62%);
         line-height: 1.5em;
-
-
     }
+
     /*Latest Articles Section Ends*/
 
     /*Footer Section Starts*/
 
-    #footer-section{
+    #footer-section {
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
         padding-right: 5vw;
-
-        
     }
-    .footer{
+
+    .footer {
         height: 80vh;
         color: white;
     }
 
-    .footer-container{
+    .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -762,11 +732,9 @@ body{
         padding-top: 4vh;
     }
 
-    .footer-logo-container{
+    .footer-logo-container {}
 
-    }
-
-    .footer-logo{
+    .footer-logo {
         height: vh;
         margin-bottom: 3vh;
         margin-top: 4.5vh;
@@ -775,60 +743,59 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 5px;
-        
-
     }
 
-    .footer-logo>svg{
+    .footer-logo>svg {
         color: white;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         display: flex;
         padding: 9px;
         justify-content: center;
         margin-left: 4.5vw;
         width: 100%;
-        
-    }
-    .facebook{
-        padding: 3px;
-    }
-    .youtube{
-        padding: 3px;
-
-    }
-    .twitter{
-        padding: 3px;
-
-    }
-    .pinterest{
-        padding: 3px;
-
-    }
-    .instagram{
-        padding: 3px;
-
     }
 
-    .footer-links{
+    .facebook {
+        padding: 3px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .twitter {
+        padding: 3px;
+    }
+
+    .pinterest {
+        padding: 3px;
+    }
+
+    .instagram {
+        padding: 3px;
+    }
+
+    .footer-links {
         width: 100%;
         text-align: center;
     }
 
-    .foot-links-1{
-    }
+    .foot-links-1 {}
 
-    .footer-links li{
+    .footer-links li {
         list-style-type: none;
         margin-top: 1.5vh;
         width: 100%;
     }
-    .footer-links a{
+
+    .footer-links a {
         color: white;
         text-decoration: none;
-
     }
-    .footer-btn-container{
+
+    .footer-btn-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -836,7 +803,8 @@ body{
         width: 100%;
         text-align: center;
     }
-    .footer-btn{
+
+    .footer-btn {
         margin-bottom: 2vh;
         margin-top: 1vw;
         margin-left: 8.5vw;
@@ -847,24 +815,29 @@ body{
         height: 40px;
         width: 40vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
-      
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    .footer-copyright{
+
+    .footer-copyright {
         color: hsl(233, 8%, 62%);
         text-align: center;
         margin-left: 3vw;
     }
+
     /*Footer Section Ends*/
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
+
     /*Large mobile devices*/
-    body{
+    body {
         height: 725vh;
     }
+
     /*Navbar Section Begins*/
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -879,16 +852,16 @@ body{
         z-index: 1;
     }
 
-    .logo{
-        margin: .5rem;
+    .logo {
+        margin: 0.5rem;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
         width: 100%;
     }
 
-    .nav-links>ul{
+    .nav-links>ul {
         margin: 0;
         padding: 0;
         display: flex;
@@ -896,7 +869,7 @@ body{
         width: 100%;
     }
 
-    .nav-links li{
+    .nav-links li {
         list-style: none;
         text-align: center;
     }
@@ -904,21 +877,19 @@ body{
     .nav-links li a {
         text-decoration: none;
         color: black;
-        padding: .5rem 1rem;
+        padding: 0.5rem 1rem;
         display: block;
     }
 
-    .nav-links.active{
+    .nav-links.active {
         display: flex;
     }
 
-    .nav-links li:hover{
-
+    .nav-links li:hover {
         border-bottom: solid hsl(192, 70%, 51%);
-
     }
 
-    .toggle-button{
+    .toggle-button {
         position: absolute;
         top: 1.5rem;
         right: 1rem;
@@ -929,14 +900,15 @@ body{
         height: 21px;
     }
 
-    .register{
+    .register {
         display: none;
     }
+
     /*Navbar Section Ends*/
 
     /*Hero Section Starts*/
 
-    #hero{
+    #hero {
         display: flex;
         flex-direction: column-reverse;
         background-color: hsl(0, 0%, 98%);
@@ -946,17 +918,16 @@ body{
         background-repeat: no-repeat;
         background-size: 145vw;
         margin-top: 0;
-        
-        background-position: 40% -135%;
 
+        background-position: 40% -135%;
     }
 
-    .hero-text-container{
+    .hero-text-container {
         padding-left: 14%;
         width: 100%;
     }
 
-    .hero-header{
+    .hero-header {
         font-size: 9.4vw;
         width: 90%;
         font-weight: 300;
@@ -965,7 +936,7 @@ body{
         text-align: center;
     }
 
-    .hero-text{
+    .hero-text {
         width: 90%;
         text-align: left;
         font-size: 4.7vw;
@@ -975,7 +946,7 @@ body{
         text-align: center;
     }
 
-    .hero-img{
+    .hero-img {
         width: 70vw;
         display: flex;
         justify-content: center;
@@ -983,7 +954,7 @@ body{
         z-index: 0;
     }
 
-    .hero-btn{
+    .hero-btn {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -991,7 +962,9 @@ body{
         height: 45px;
         width: 45vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
         margin-top: 1.3%;
         font-size: 4.5vw;
         text-align: center;
@@ -999,36 +972,30 @@ body{
         margin-bottom: 15%;
     }
 
-
     /*Hero Section Ends*/
 
     /*Easybank info Section Starts*/
 
-    #Easybank-info{
+    #Easybank-info {
         margin: 0;
         height: 110vh;
-        
-
     }
 
-    .Easybank-info-container{
-        border: solid hsl(220, 16%, 96%) ;
+    .Easybank-info-container {
+        border: solid hsl(220, 16%, 96%);
         height: 240vh;
         background-color: hsl(220, 16%, 96%);
-    
-        
     }
 
-    .Easybank-info-header{
+    .Easybank-info-header {
         font-weight: 300;
         font-size: 9vw;
         margin-top: 18%;
         margin-left: 4%;
         text-align: center;
-
     }
 
-    .Easybank-info-header-text{
+    .Easybank-info-header-text {
         font-weight: 400;
         font-size: 3.6vw;
         line-height: 1.8em;
@@ -1039,146 +1006,134 @@ body{
         text-align: center;
     }
 
-    .Easybank-info-component-container{
+    .Easybank-info-component-container {
         display: flex;
         margin: 5px;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        
     }
 
-    .Easybank-info-component{
+    .Easybank-info-component {
         height: 50vh;
         width: 80%;
     }
 
-    .Easybank-info-component-icon{
+    .Easybank-info-component-icon {
         height: 25%;
         padding-left: 38%;
         text-align: center;
     }
 
-    .Easybank-info-component-header{
+    .Easybank-info-component-header {
         font-weight: 400;
         font-size: 5vw;
         padding-left: 5px;
         text-align: center;
     }
 
-    .Easybank-info-component-text{
+    .Easybank-info-component-text {
         font-weight: 400;
         color: hsl(233, 8%, 62%);
         font-size: 3.6vw;
         line-height: 1.8em;
         padding: 5px;
         text-align: center;
-
     }
-
 
     /*Easybank info Section Ends*/
 
     /*Latest Articles Section Starts*/
 
-    #latest-article-section{
+    #latest-article-section {
         background-color: hsl(0, 0%, 98%);
         height: 300vh;
         width: 100%;
         margin-top: 130vh;
     }
 
-    .latest-article-container{
+    .latest-article-container {
         border: solid hsl(0, 0%, 98%);
         width: 100%;
         height: 300vh;
     }
 
-    .latest-article-header{
+    .latest-article-header {
         font-weight: 300;
         font-size: 7vw;
         margin-top: 4%;
         width: 100%;
         text-align: center;
-        
-        
     }
 
-    .article-component-container{
+    .article-component-container {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
     }
 
-    .article-component{
+    .article-component {
         height: 60vh;
         width: 80%;
         margin-bottom: 20%;
     }
 
-    .article-img{
+    .article-img {
         width: 100%;
         height: 35vh;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
 
-    .article-text-container{
+    .article-text-container {
         padding-left: 6%;
         margin-top: -4px;
         background-color: white;
         height: 40vw;
-        border: solid white; 
+        border: solid white;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-
-        
     }
 
-    .article-author{
+    .article-author {
         font-size: 2.5vw;
         color: hsl(233, 8%, 62%);
         font-weight: 300;
         margin-top: 4%;
         line-height: 1.5em;
-        
-
     }
 
-    .article-title{
+    .article-title {
         font-weight: 400;
         margin-top: -2px;
         font-size: 4.2vw;
         width: 95%;
-
     }
 
-    .article-content{
+    .article-content {
         font-size: 3vw;
         width: 90%;
         color: hsl(233, 8%, 62%);
         line-height: 1.5em;
-
-
     }
+
     /*Latest Articles Section Ends*/
 
     /*Footer Section Starts*/
 
-    #footer-section{
+    #footer-section {
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
         padding-right: 2.5vw;
-
-        
     }
-    .footer{
+
+    .footer {
         height: 80vh;
         color: white;
     }
 
-    .footer-container{
+    .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1186,11 +1141,9 @@ body{
         padding-top: 4vh;
     }
 
-    .footer-logo-container{
+    .footer-logo-container {}
 
-    }
-
-    .footer-logo{
+    .footer-logo {
         height: vh;
         margin-bottom: 3vh;
         margin-top: 4.5vh;
@@ -1199,67 +1152,67 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 5px;
-        
-
     }
 
-    .footer-logo>svg{
+    .footer-logo>svg {
         color: white;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         display: flex;
         padding: 9px;
         justify-content: center;
         margin-left: 3.5vw;
         width: 100%;
-        
-    }
-    .facebook{
-        padding: 3px;
-    }
-    .youtube{
-        padding: 3px;
-
-    }
-    .twitter{
-        padding: 3px;
-
-    }
-    .pinterest{
-        padding: 3px;
-
-    }
-    .instagram{
-        padding: 3px;
-
     }
 
-    .footer-links{
+    .facebook {
+        padding: 3px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .twitter {
+        padding: 3px;
+    }
+
+    .pinterest {
+        padding: 3px;
+    }
+
+    .instagram {
+        padding: 3px;
+    }
+
+    .footer-links {
         width: 100%;
         text-align: center;
     }
 
-    .foot-links-1{
-    }
+    .foot-links-1 {}
 
-    .footer-links li{
+    .footer-links li {
         list-style-type: none;
         margin-top: 1.5vh;
         width: 100%;
     }
-    .footer-links a{
+
+    .footer-links a {
         color: white;
         text-decoration: none;
-
     }
-    .footer-btn-container{
+
+    .footer-btn-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .footer-btn{
+
+    .footer-btn {
         margin-bottom: 2vh;
         margin-top: 1vw;
         margin-left: 6.5vw;
@@ -1270,26 +1223,29 @@ body{
         height: 40px;
         width: 40vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
-      
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    .footer-copyright{
+
+    .footer-copyright {
         color: hsl(233, 8%, 62%);
         text-align: center;
         margin-left: 2vw;
     }
-    /*Footer Section Ends*/
 
-    
+    /*Footer Section Ends*/
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
+
     /*Tablet devices*/
-    body{
-        height: 870vh;
+    body {
+        height: 100%;
     }
+
     /*Navbar Section Begins*/
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1304,17 +1260,17 @@ body{
         z-index: 1;
     }
 
-    .logo{
-        margin: .5rem;
+    .logo {
+        margin: 0.5rem;
         margin-top: 1rem;
     }
 
-    .nav-links{
+    .nav-links {
         display: none;
         width: 100%;
     }
 
-    .nav-links>ul{
+    .nav-links>ul {
         margin: 0;
         padding: 0;
         display: flex;
@@ -1322,10 +1278,9 @@ body{
         width: 100%;
     }
 
-    .nav-links li{
+    .nav-links li {
         list-style: none;
         text-align: center;
-        
     }
 
     .nav-links li a {
@@ -1335,26 +1290,22 @@ body{
         display: block;
     }
 
-    .nav-links.active{
+    .nav-links.active {
         display: flex;
         background-color: white;
-        
     }
 
-    .nav-links li:hover{
-
+    .nav-links li:hover {
         border-bottom: solid hsl(192, 70%, 51%);
-        
-
     }
 
-    .burger-icon{
+    .burger-icon {
         margin-top: 1rem;
     }
 
-    .toggle-button{
+    .toggle-button {
         position: absolute;
-        top: .75rem;
+        top: 0.75rem;
         right: 1rem;
         display: flex;
         flex-direction: column;
@@ -1363,13 +1314,14 @@ body{
         height: 21px;
     }
 
-    .register{
+    .register {
         display: none;
     }
+
     /*Navbar Section Ends*/
     /*Hero Section Starts*/
 
-    #hero{
+    #hero {
         display: flex;
         flex-direction: column-reverse;
         background-color: hsl(0, 0%, 98%);
@@ -1379,17 +1331,16 @@ body{
         background-repeat: no-repeat;
         background-size: 150vw;
         margin-top: 0;
-        
-        background-position: 38% -430%;
 
+        background-position: 38% -430%;
     }
 
-    .hero-text-container{
+    .hero-text-container {
         padding-left: 14%;
         width: 100%;
     }
 
-    .hero-header{
+    .hero-header {
         font-size: 9.2vw;
         width: 90%;
         font-weight: 300;
@@ -1398,7 +1349,7 @@ body{
         text-align: center;
     }
 
-    .hero-text{
+    .hero-text {
         width: 90%;
         text-align: left;
         font-size: 3.5vw;
@@ -1408,7 +1359,7 @@ body{
         text-align: center;
     }
 
-    .hero-img{
+    .hero-img {
         width: 70vw;
         display: flex;
         justify-content: center;
@@ -1416,7 +1367,7 @@ body{
         z-index: 0;
     }
 
-    .hero-btn{
+    .hero-btn {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -1424,7 +1375,9 @@ body{
         height: 45px;
         width: 25vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
         margin-top: 1%;
         font-size: 2.5vw;
         text-align: center;
@@ -1432,35 +1385,29 @@ body{
         margin-bottom: 15%;
     }
 
-
     /*Hero Section Ends*/
 
     /*Easybank info Section Starts*/
 
-    #Easybank-info{
+    #Easybank-info {
         margin: 0;
         height: 110vh;
-        
-
     }
 
-    .Easybank-info-container{
-        border: solid hsl(220, 16%, 96%) ;
+    .Easybank-info-container {
+        border: solid hsl(220, 16%, 96%);
         height: 320vh;
         background-color: hsl(220, 16%, 96%);
-    
-        
     }
 
-    .Easybank-info-header{
+    .Easybank-info-header {
         font-weight: 400;
         font-size: 6vw;
         margin-top: 8%;
         text-align: center;
-
     }
 
-    .Easybank-info-header-text{
+    .Easybank-info-header-text {
         font-weight: 400;
         font-size: 3.5vw;
         line-height: 1.5em;
@@ -1471,146 +1418,134 @@ body{
         text-align: center;
     }
 
-    .Easybank-info-component-container{
+    .Easybank-info-component-container {
         display: flex;
         margin: 5px;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
-        
     }
 
-    .Easybank-info-component{
+    .Easybank-info-component {
         height: 60vh;
         width: 80%;
     }
 
-    .Easybank-info-component-icon{
+    .Easybank-info-component-icon {
         height: 25%;
         padding-left: 40%;
         text-align: center;
     }
 
-    .Easybank-info-component-header{
+    .Easybank-info-component-header {
         font-weight: 400;
         font-size: 5vw;
         padding-left: 5px;
         text-align: center;
     }
 
-    .Easybank-info-component-text{
+    .Easybank-info-component-text {
         font-weight: 400;
         color: hsl(233, 8%, 62%);
         font-size: 3.5vw;
         line-height: 1.5em;
         padding: 5px;
         text-align: center;
-
     }
-
 
     /*Easybank info Section Ends*/
 
     /*Latest Articles Section Starts*/
 
-    #latest-article-section{
+    #latest-article-section {
         background-color: hsl(0, 0%, 98%);
         height: 380vh;
         width: 100%;
         margin-top: 200vh;
     }
 
-    .latest-article-container{
+    .latest-article-container {
         border: solid hsl(0, 0%, 98%);
         width: 100%;
         height: 360vh;
     }
 
-    .latest-article-header{
+    .latest-article-header {
         font-weight: 300;
         font-size: 7vw;
         margin-top: 4%;
         width: 100%;
         text-align: center;
-        
-        
     }
 
-    .article-component-container{
+    .article-component-container {
         display: flex;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
     }
 
-    .article-component{
+    .article-component {
         height: 60vh;
         width: 80%;
         margin-bottom: 25%;
     }
 
-    .article-img{
+    .article-img {
         width: 100%;
         height: 35vh;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
 
-    .article-text-container{
+    .article-text-container {
         padding-left: 6%;
         margin-top: -4px;
         background-color: white;
         height: 40vw;
-        border: solid white; 
+        border: solid white;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-
-        
     }
 
-    .article-author{
+    .article-author {
         font-size: 2.5vw;
         color: hsl(233, 8%, 62%);
         font-weight: 300;
         margin-top: 4%;
         line-height: 1.5em;
-        
-
     }
 
-    .article-title{
+    .article-title {
         font-weight: 400;
         margin-top: -2px;
         font-size: 4.2vw;
         width: 95%;
-
     }
 
-    .article-content{
+    .article-content {
         font-size: 3vw;
         width: 90%;
         color: hsl(233, 8%, 62%);
         line-height: 1.5em;
-
-
     }
+
     /*Latest Articles Section Ends*/
 
-     /*Footer Section Starts*/
+    /*Footer Section Starts*/
 
-     #footer-section{
+    #footer-section {
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
         padding-right: 1.5vw;
-
-        
     }
-    .footer{
+
+    .footer {
         height: 80vh;
         color: white;
     }
 
-    .footer-container{
+    .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1618,11 +1553,9 @@ body{
         padding-top: 4vh;
     }
 
-    .footer-logo-container{
+    .footer-logo-container {}
 
-    }
-
-    .footer-logo{
+    .footer-logo {
         height: vh;
         margin-bottom: 3vh;
         margin-top: 4.5vh;
@@ -1631,100 +1564,100 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 5px;
-        
-
     }
 
-    .footer-logo>svg{
+    .footer-logo>svg {
         color: white;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         display: flex;
         padding: 9px;
         justify-content: center;
         margin-left: 3.5vw;
         width: 100%;
-        
-    }
-    .facebook{
-        padding: 3px;
-    }
-    .youtube{
-        padding: 3px;
-
-    }
-    .twitter{
-        padding: 3px;
-
-    }
-    .pinterest{
-        padding: 3px;
-
-    }
-    .instagram{
-        padding: 3px;
-
     }
 
-    .footer-links{
+    .facebook {
+        padding: 3px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .twitter {
+        padding: 3px;
+    }
+
+    .pinterest {
+        padding: 3px;
+    }
+
+    .instagram {
+        padding: 3px;
+    }
+
+    .footer-links {
         width: 100%;
         text-align: center;
     }
 
-    .foot-links-1{
-    }
+    .foot-links-1 {}
 
-    .footer-links li{
+    .footer-links li {
         list-style-type: none;
         margin-top: 1.5vh;
         width: 100%;
     }
-    .footer-links a{
+
+    .footer-links a {
         color: white;
         text-decoration: none;
-
     }
-    .footer-btn-container{
+
+    .footer-btn-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .footer-btn{
+
+    .footer-btn {
         margin-bottom: 2vh;
         margin-top: 1vw;
-        margin-left: 3.5vw;
+        margin-left: 4vw;
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
         color: white;
         height: 40px;
-        width: 24vw;
+        width: 30vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
-      
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    .footer-copyright{
+
+    .footer-copyright {
         color: hsl(233, 8%, 62%);
         text-align: center;
         margin-left: 1.5vw;
     }
+
     /*Footer Section Ends*/
-
-    
-
-
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     /*Laptop devices*/
 
-    body{
+    body {
         height: 270vh;
     }
+
     /*Navbar Section Begins*/
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1737,18 +1670,17 @@ body{
         z-index: 1;
     }
 
-    .logo{
-        margin: .5rem;
-
+    .logo {
+        margin: 0.5rem;
     }
 
-    .nav-links>ul{
+    .nav-links>ul {
         margin: 0;
         padding: 0;
         display: flex;
     }
 
-    .nav-links li{
+    .nav-links li {
         list-style: none;
         font-size: 1.5vw;
     }
@@ -1760,15 +1692,13 @@ body{
         display: block;
     }
 
-    .nav-links li:hover{
-
+    .nav-links li:hover {
         border-bottom: solid hsl(192, 70%, 51%);
-
     }
 
-    .toggle-button{
+    .toggle-button {
         position: absolute;
-        top: .75rem;
+        top: 0.75rem;
         right: 1rem;
         display: none;
         flex-direction: column;
@@ -1777,7 +1707,7 @@ body{
         height: 21px;
     }
 
-    .register{
+    .register {
         background-color: hsl(136, 65%, 51%);
         border: solid hsl(136, 65%, 51%) 1px;
         border-radius: 25px;
@@ -1785,13 +1715,16 @@ body{
         height: 35px;
         width: 15vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
+
     /*Navbar Section Ends*/
 
     /*Hero Section Begins*/
 
-    #hero{
+    #hero {
         display: flex;
         flex-direction: row;
         background-color: hsl(0, 0%, 98%);
@@ -1800,41 +1733,35 @@ body{
         background-repeat: no-repeat;
         background-size: 70vw;
         margin-top: 0;
-        
+
         background-position: 155% -35%;
-        
-        
     }
 
-    .hero-text-container{
+    .hero-text-container {
         padding-left: 5%;
         width: 70%;
-       
     }
 
-    .hero-img-container{
-    }
+    .hero-img-container {}
 
-    .hero-header{
+    .hero-header {
         font-size: 3.5vw;
         width: 65%;
         font-weight: 400;
         margin-top: 25%;
         height: fit-content;
-
     }
 
-    .hero-text{
+    .hero-text {
         width: 67%;
         text-align: left;
         font-size: 1.3vw;
         height: 12%;
         line-height: 1.5em;
         color: hsl(233, 8%, 62%);
-
     }
 
-    .hero-btn{
+    .hero-btn {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -1842,45 +1769,43 @@ body{
         height: 40px;
         width: 15vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
         margin-top: 2%;
     }
 
-    .hero-img{
+    .hero-img {
         position: sticky;
         z-index: 0;
         margin-top: -3%;
         margin-left: 5%;
         width: 45vw;
-
     }
+
     /*Hero Section Ends*/
 
     /*Easybank info Section Starts*/
 
-    #Easybank-info{
+    #Easybank-info {
         margin: 0;
         height: 110vh;
-        
-
     }
 
-    .Easybank-info-container{
-        border: solid hsl(220, 16%, 96%) ;
+    .Easybank-info-container {
+        border: solid hsl(220, 16%, 96%);
         height: 80vh;
         background-color: hsl(220, 16%, 96%);
-        
     }
 
-    .Easybank-info-header{
+    .Easybank-info-header {
         font-weight: 400;
         font-size: 2.8vw;
         margin-top: 8%;
         margin-left: 4%;
-
     }
 
-    .Easybank-info-header-text{
+    .Easybank-info-header-text {
         font-weight: 400;
         font-size: 1.3vw;
         line-height: 1.5em;
@@ -1890,202 +1815,189 @@ body{
         margin-left: 4%;
     }
 
-    .Easybank-info-component-container{
+    .Easybank-info-component-container {
         display: flex;
         margin: 5px;
         justify-content: space-evenly;
-        
     }
 
-    .Easybank-info-component{
+    .Easybank-info-component {
         height: 50vh;
         width: 20%;
     }
 
-    .Easybank-info-component-icon{
+    .Easybank-info-component-icon {
         height: 25%;
         padding-left: 5px;
     }
 
-    .Easybank-info-component-header{
+    .Easybank-info-component-header {
         font-weight: 500;
         font-size: 2vw;
         padding-left: 5px;
     }
 
-    .Easybank-info-component-text{
+    .Easybank-info-component-text {
         font-weight: 400;
         color: hsl(233, 8%, 62%);
         font-size: 1.3vw;
         line-height: 1.5em;
         padding: 5px;
-
     }
-
 
     /*Easybank info Section Ends*/
 
-     /*Latest Articles Section Starts*/
+    /*Latest Articles Section Starts*/
 
-     #latest-article-section{
+    #latest-article-section {
         background-color: hsl(0, 0%, 98%);
         height: 85vh;
         margin-top: -30vh;
         width: 100%;
     }
 
-    .latest-article-container{
+    .latest-article-container {
         border: solid hsl(0, 0%, 98%);
         width: 100%;
         height: 85vh;
     }
 
-    .latest-article-header{
+    .latest-article-header {
         font-weight: 400;
         font-size: 2.8vw;
         margin-top: 4%;
         margin-left: 6%;
         width: 100%;
-        
     }
 
-    .article-component-container{
+    .article-component-container {
         display: flex;
         justify-content: space-evenly;
     }
 
-    .article-component{
+    .article-component {
         height: 50vh;
         width: 19%;
     }
 
-    .article-img{
+    .article-img {
         width: 100%;
         height: 25vh;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
 
-    .article-text-container{
+    .article-text-container {
         padding-left: 6%;
         margin-top: -4px;
         background-color: white;
         height: 32vh;
-        border: solid white; 
-
-        
+        border: solid white;
     }
 
-    .article-author{
-        font-size: .8vw;
+    .article-author {
+        font-size: 0.8vw;
         color: hsl(233, 8%, 62%);
         font-weight: 300;
         margin-top: 8%;
-        
-
     }
 
-    .article-title{
+    .article-title {
         font-weight: 400;
         margin-top: -2px;
     }
 
-    .article-content{
+    .article-content {
         font-size: 1vw;
         width: 90%;
         color: hsl(233, 8%, 62%);
-
     }
+
     /*Latest Articles Section Ends*/
 
-     /*Footer Section Starts*/
+    /*Footer Section Starts*/
 
-     #footer-section{
+    #footer-section {
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
-        
     }
-    .footer{
+
+    .footer {
         height: 30vh;
         color: white;
     }
 
-    .footer-container{
+    .footer-container {
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding-top: 4vh;
     }
 
-    .footer-logo-container{
+    .footer-logo-container {}
 
-    }
-
-    .footer-logo{
+    .footer-logo {
         height: vh;
         margin-bottom: 4vh;
         margin-top: 3.5vh;
-
-
-        
         border: solid;
         background-color: white;
         border-radius: 10px;
         padding: 5px;
-
     }
 
-    .footer-logo>svg{
+    .footer-logo>svg {
         color: white;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         display: flex;
         padding: 9px;
         justify-content: space-evenly;
-        margin-right: ;
-    }
-    .facebook{
-        padding: 3px;
-    }
-    .youtube{
-        padding: 3px;
-
-    }
-    .twitter{
-        padding: 3px;
-
-    }
-    .pinterest{
-        padding: 3px;
-
-    }
-    .instagram{
-        padding: 3px;
-
     }
 
-    .footer-links{
+    .facebook {
+        padding: 3px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .twitter {
+        padding: 3px;
+    }
+
+    .pinterest {
+        padding: 3px;
+    }
+
+    .instagram {
+        padding: 3px;
+    }
+
+    .footer-links {
         display: flex;
         width: 30%;
     }
 
-    .foot-links-1{
+    .foot-links-1 {
         margin-right: 15%;
         margin-left: -10%;
     }
 
-    .footer-links li{
+    .footer-links li {
         list-style-type: none;
         margin-top: 1.5vh;
         width: 100%;
     }
-    .footer-links a{
+
+    .footer-links a {
         color: white;
         text-decoration: none;
-
     }
-    .footer-btn-container
-    .footer-btn{
+
+    .footer-btn-container .footer-btn {
         margin-bottom: 2vh;
         margin-top: 1vw;
         margin-left: 7vw;
@@ -2096,30 +2008,34 @@ body{
         height: 35px;
         width: 16vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
-      
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    .footer-copyright{
+
+    .footer-copyright {
         color: hsl(233, 8%, 62%);
     }
+
     /*Footer Section Ends*/
 }
 
 @media only screen and (min-width: 1025px) {
     /*Large Laptops devices*/
 
-    body{
+    body {
         height: 295vh;
     }
 
     /*Navbar Section Begins*/
 
-    #nav-section{
-        height: 8vh; /*keeps navbar positioned above hero page*/
+    #nav-section {
+        height: 8vh;
+        /*keeps navbar positioned above hero page*/
         z-index: 1;
     }
 
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -2132,18 +2048,17 @@ body{
         z-index: 1;
     }
 
-    .logo{
-        margin: .5rem;
-
+    .logo {
+        margin: 0.5rem;
     }
 
-    .nav-links>ul{
+    .nav-links>ul {
         margin: 0;
         padding: 0;
         display: flex;
     }
 
-    .nav-links li{
+    .nav-links li {
         list-style: none;
     }
 
@@ -2154,15 +2069,13 @@ body{
         display: block;
     }
 
-    .nav-links li:hover{
-
+    .nav-links li:hover {
         border-bottom: solid hsl(192, 70%, 51%);
-
     }
 
-    .toggle-button{
+    .toggle-button {
         position: absolute;
-        top: .75rem;
+        top: 0.75rem;
         right: 1rem;
         display: none;
         flex-direction: column;
@@ -2171,7 +2084,7 @@ body{
         height: 21px;
     }
 
-    .register{
+    .register {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -2179,14 +2092,16 @@ body{
         height: 35px;
         width: 150%;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    
+
     /*Navbar Section Ends*/
 
     /*Hero Section Begins*/
 
-    #hero{
+    #hero {
         display: flex;
         flex-direction: row;
         background-color: hsl(0, 0%, 98%);
@@ -2196,39 +2111,33 @@ body{
         background-size: 70vw;
         margin-top: 0;
         background-position: 165% 75%;
-
-        
     }
 
-    .hero-text-container{
+    .hero-text-container {
         padding-left: 5%;
         width: 70%;
-       
     }
 
-    .hero-img-container{
-    }
+    .hero-img-container {}
 
-    .hero-header{
+    .hero-header {
         font-size: 3.5vw;
         width: 65%;
         font-weight: 400;
         margin-top: 25%;
         height: fit-content;
-
     }
 
-    .hero-text{
+    .hero-text {
         width: 67%;
         text-align: left;
         font-size: 1.3vw;
         height: 12%;
         line-height: 1.5em;
         color: hsl(233, 8%, 62%);
-
     }
 
-    .hero-btn{
+    .hero-btn {
         background-color: hsl(136, 65%, 51%);
         border: none;
         border-radius: 25px;
@@ -2236,44 +2145,42 @@ body{
         height: 40px;
         width: 12vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
         margin-top: 2%;
     }
 
-    .hero-img{
+    .hero-img {
         position: sticky;
         z-index: 0;
         margin-top: -15%;
         margin-left: 15%;
         width: 45vw;
-
     }
+
     /*Hero Section Ends*/
     /*Easybank info Section Starts*/
 
-    #Easybank-info{
+    #Easybank-info {
         margin: 0;
         height: 110vh;
-        
-
     }
 
-    .Easybank-info-container{
-        border: solid hsl(220, 16%, 96%) ;
+    .Easybank-info-container {
+        border: solid hsl(220, 16%, 96%);
         height: 95vh;
         background-color: hsl(220, 16%, 96%);
-        
     }
 
-    .Easybank-info-header{
+    .Easybank-info-header {
         font-weight: 400;
         font-size: 2.8vw;
         margin-top: 8%;
         margin-left: 4%;
-
     }
 
-    .Easybank-info-header-text{
+    .Easybank-info-header-text {
         font-weight: 400;
         font-size: 1.3vw;
         line-height: 1.5em;
@@ -2283,138 +2190,128 @@ body{
         margin-left: 4%;
     }
 
-    .Easybank-info-component-container{
+    .Easybank-info-component-container {
         display: flex;
         margin: 5px;
         justify-content: space-evenly;
-        
     }
 
-    .Easybank-info-component{
+    .Easybank-info-component {
         height: 50vh;
         width: 20%;
     }
 
-    .Easybank-info-component-icon{
+    .Easybank-info-component-icon {
         height: 25%;
         padding-left: 5px;
     }
 
-    .Easybank-info-component-header{
+    .Easybank-info-component-header {
         font-weight: 500;
         font-size: 2vw;
         padding-left: 5px;
     }
 
-    .Easybank-info-component-text{
+    .Easybank-info-component-text {
         font-weight: 400;
         color: hsl(233, 8%, 62%);
         font-size: 1.3vw;
         line-height: 1.5em;
         padding: 5px;
-
     }
-
 
     /*Easybank info Section Ends*/
 
     /*Latest Articles Section Starts*/
 
-    #latest-article-section{
+    #latest-article-section {
         background-color: hsl(0, 0%, 98%);
         height: 85vh;
         margin-top: -15vh;
         width: 100%;
     }
 
-    .latest-article-container{
+    .latest-article-container {
         border: solid hsl(0, 0%, 98%);
         width: 100%;
         height: 85vh;
     }
 
-    .latest-article-header{
+    .latest-article-header {
         font-weight: 400;
         font-size: 2.8vw;
         margin-top: 4%;
         margin-left: 6%;
         width: 100%;
-        
     }
 
-    .article-component-container{
+    .article-component-container {
         display: flex;
         justify-content: space-evenly;
     }
 
-    .article-component{
+    .article-component {
         height: 50vh;
         width: 19%;
     }
 
-    .article-img{
+    .article-img {
         width: 100%;
         height: 25vh;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
     }
 
-    .article-text-container{
+    .article-text-container {
         padding-left: 6%;
         margin-top: -4px;
         background-color: white;
         height: 32vh;
-        border: solid white; 
-
-        
+        border: solid white;
     }
 
-    .article-author{
-        font-size: .8vw;
+    .article-author {
+        font-size: 0.8vw;
         color: hsl(233, 8%, 62%);
         font-weight: 300;
         margin-top: 8%;
-        
-
     }
 
-    .article-title{
+    .article-title {
         font-weight: 400;
         margin-top: -2px;
     }
 
-    .article-content{
+    .article-content {
         font-size: 1vw;
         width: 90%;
         color: hsl(233, 8%, 62%);
-
     }
+
     /*Latest Articles Section Ends*/
 
     /*Footer Section Starts*/
 
-    #footer-section{
+    #footer-section {
         background-color: hsl(233, 26%, 24%);
         font-weight: 300;
-        
     }
-    .footer{
+
+    .footer {
         height: 30vh;
         color: white;
     }
 
-    .footer-container{
+    .footer-container {
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding-top: 4vh;
     }
 
-    .footer-logo-container{
+    .footer-logo-container {}
 
-    }
-
-    .footer-logo{
+    .footer-logo {
         height: vh;
         margin-bottom: 5vh;
         margin-top: 3.5vh;
@@ -2423,60 +2320,60 @@ body{
         background-color: white;
         border-radius: 10px;
         padding: 5px;
-
     }
 
-    .footer-logo>svg{
+    .footer-logo>svg {
         color: white;
     }
-    .footer-social-container{
+
+    .footer-social-container {
         display: flex;
         padding: 9px;
         justify-content: space-evenly;
-        margin-right: ;
-    }
-    .facebook{
-        padding: 3px;
-    }
-    .youtube{
-        padding: 3px;
-
-    }
-    .twitter{
-        padding: 3px;
-
-    }
-    .pinterest{
-        padding: 3px;
-
-    }
-    .instagram{
-        padding: 3px;
-
     }
 
-    .footer-links{
+    .facebook {
+        padding: 3px;
+    }
+
+    .youtube {
+        padding: 3px;
+    }
+
+    .twitter {
+        padding: 3px;
+    }
+
+    .pinterest {
+        padding: 3px;
+    }
+
+    .instagram {
+        padding: 3px;
+    }
+
+    .footer-links {
         display: flex;
         width: 30%;
     }
 
-    .foot-links-1{
+    .foot-links-1 {
         margin-right: 15%;
         margin-left: -10%;
     }
 
-    .footer-links li{
+    .footer-links li {
         list-style-type: none;
         margin-top: 1.5vh;
         width: 100%;
     }
-    .footer-links a{
+
+    .footer-links a {
         color: white;
         text-decoration: none;
-
     }
-    .footer-btn-container
-    .footer-btn{
+
+    .footer-btn-container .footer-btn {
         margin-bottom: 2vh;
         margin-top: 1vw;
         margin-left: 6vw;
@@ -2487,14 +2384,14 @@ body{
         height: 35px;
         width: 9vw;
         font-weight: 600;
-        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%) );
-      
+        background-image: linear-gradient(to right,
+                hsl(136, 65%, 51%),
+                hsl(192, 70%, 51%));
     }
-    .footer-copyright{
+
+    .footer-copyright {
         color: hsl(233, 8%, 62%);
     }
+
     /*Footer Section Ends*/
-
-
-
 }
